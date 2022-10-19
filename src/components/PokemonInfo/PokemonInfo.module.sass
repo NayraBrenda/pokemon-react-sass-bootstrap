@@ -1,0 +1,42 @@
+@mixin shadow-box
+    box-shadow: 5px 2px 25px -9px #0000009d
+    -webkit-box-shadow: 5px 2px 25px -9px #00000092
+    -moz-box-shadow: 5px 2px 25px -9px #00000099
+
+.PokemonImage
+    width: 100%
+
+.PokemonName
+    font-size:32px
+    border-radius: 5px
+    padding: 5px
+    margin-top: 10px
+    background-color: #8abedc
+    font-family: 'Griffy', cursive
+    
+    @include  shadow-box
+    
+.AbilitiesTitle
+    font-size: 20px
+    margin:0
+    font-weight: bold
+
+.Abilities
+    font-weight: bold
+
+.MovesSelect
+    background-color: #d48fe9
+    border: none
+    width: 100%
+    padding: 10px
+    margin: 10px auto
+    border-radius: 20px
+    text-align: center
+    outline: none
+    font-weight: bold
+
+    @include shadow-box
+
+.MovesDetails
+    font-weight: bold
+
