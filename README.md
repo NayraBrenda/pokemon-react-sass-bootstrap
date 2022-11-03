@@ -3,7 +3,7 @@
 ### Este projeto é uma aplicação que exibe diversos Pokemons, ao clicar no Pokemon o usuário poderá conhecer mais detalhes sobre ele. 🙂
 
 #### 1. Utilizada uma API pública no projeto 
-#### 2. Principais tecnologias utilizadas: React, Sass e Bootstrap. 
+#### 2. Principais tecnologias utilizadas: ReactJs, Sass e Bootstrap. 
 #### 3. Para realizar interação com API foi utilizado o Axios. 
 #### 4. Este projeto possui implementação de vários métodos como: Manipulação de objetos/arrays, manipulação de eventos(onClick, onChange), implementação de funções de array, componetização, paginação, interação com API, loading, entre outros. 
 -------------------------------------------------
